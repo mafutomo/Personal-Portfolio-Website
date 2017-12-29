@@ -1,8 +1,7 @@
-
-
 .new-bg{
   background-color: #79C7CA;
 }
+
 
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
@@ -42,6 +41,11 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
+.text-lite{
+  font-weight:lighter;
+
+}
+
 .bg-primary {
   background-color: #79C7CA !important; }
 
@@ -50,6 +54,23 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
+
+.text-white{
+  color: white;
+}
+
+
+.text-background-color{
+  background: rgba(0, 0, 0, .5);
+}
+
+/* .my-auto{
+  margin-top: 250px !important;
+} */
+
+.text-enlarge{
+  font-size: 110%;
+}
 
 section {
   padding: 8rem 0; }
@@ -79,8 +100,7 @@ body {
   -webkit-tap-highlight-color: #212529; }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #f4f4f4;
+  background-color: transparent;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -142,7 +162,7 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
-  background-position: center center;
+  background-position: center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -235,5 +255,5 @@ header.masthead {
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #f4f4f4;
     background-color: #0b3c5d !important; }
-  .btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+  /*.btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }*/

@@ -4,7 +4,7 @@ This is a one page personal portfolio site using that uses the [Bootstrap](http:
 
 ## Preview
 
-[![Front Page Preview](readme_images/front_page.png)
+![Front Page Preview](readme_images/front_page.png)
 
 **[View Live](http://melissautomo.com/)**
 

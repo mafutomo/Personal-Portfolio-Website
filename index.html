@@ -11,7 +11,7 @@
   <title>Melissa Utomo</title>
 
   <!-- Featherlight CSS -->
-  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.css" type="text/css" rel="stylesheet"/>
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -82,8 +82,9 @@
         <div class="col-lg-8 mx-auto text-center">
           <h2 class="section-heading text-white">Let's make something amazing together!</h2>
           <hr class="light my-4">
-          <p class="text-enlarge text-white mb-4 text-lite">I love building software. <br><br> Whether it's managing a technical team or digging into code with colleagues I live for the process of creating the latest & greatest of what technology has to offer. With a strong background in IT Project Management & Agile environments I strive to deliver valuable products to my clients.
-          <br><br>Here you can find my latest work and what I have to offer as a developer.</p>
+          <p class="text-enlarge text-white mb-4 text-lite">I love building software. <br><br> With a strong background in IT Project Management & Agile environments I strive to deliver valuable products to my clients. Whether it's managing a technical team or digging into code with colleagues I live
+            for the process of creating the latest & greatest of what technology has to offer.
+            <br><br>Here you can find my latest work.</p>
 
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
         </div>
@@ -95,7 +96,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Expertise & Projects</h2>
+          <h2 class="section-heading">Skills & Projects</h2>
           <hr class="my-4">
         </div>
       </div>
@@ -106,9 +107,12 @@
           <div class="service-box mt-5 mx-auto">
             <i class="fa fa-4x fa-users text-primary mb-3 sr-icons"></i>
             <h3 class="mb-3">Project Management</h3>
-            <p class="text-muted mb-0">Agile & Scrum</p>
-            <p class="text-muted mb-0">Git & GitHub Workflow</p>
             <p class="text-muted mb-0">Software Implementations</p>
+            <p class="text-muted mb-0">Agile & Scrum</p>
+            <p class="text-muted mb-0">Git Workflow</p>
+            <p class="text-muted mb-0">JIRA</p>
+
+
 
           </div>
         </div>
@@ -129,7 +133,7 @@
             <p class="text-muted mb-0">Node.js</p>
             <p class="text-muted mb-0">Express.js</p>
             <p class="text-muted mb-0">PostgreSQL</p>
-            <p class="text-muted mb-0">SQL & Knex.js</p>
+            <p class="text-muted mb-0"> Knex.js</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
@@ -145,17 +149,52 @@
     </div>
   </section>
 
-  <!-- <a href="#" data-featherlight="#mylightbox">Open element in lightbox</a>
-  <div id="mylightbox">This div will be opened in a lightbox</div>
+  <!-- Coffee Ride Modal -->
 
-  <a href="#" data-featherlight="img/portfolio/thumbnails/josh_writing.jpeg">Open image in lightbox</a> -->
+  <div class="modal fade coffee-ride" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-title">THE COFFEE RIDE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          <img class="mobile-screen-shot" src="./img/coffee_ride_mobile.png" alt="screen_shot_mobile">
+          <p>
 
+            <strong>Technologies:</strong> Stripe API, Local Storage, Mocha & Chai, HTML5, CSS, JavaScript, jQuery, Materialize.
+            <br><br> I partnered with a local business in Boulder, CO called The Coffee Ride. With only a week to implement, I gathered requirements and created a full shop website offering the Coffee Ride's current selection of coffee roasts.
+            <br><br> The purpose of this project was gain experience working with a client, harness my design skills, and create a beautiful, fully functioning website within a short timeframe.
+          </p>
+          <div class="links-group">
+            <a href="http://thecoffeeride.mutomo.surge.sh/index.html" target="_blank" class="project-link">Live Site</a>
+            <a href="https://github.com/mafutomo/the_coffee_ride" target="_blank" class="project-link-second">GitHub Repo</a>
+          </div>
 
+          <img class="screen-shot" src="./img/coffee_ride_ss1.png" alt="screen_shot_1">
+          <p class="pic-sub-title">Landing Page</p>
+
+          <img class="screen-shot" src="./img/coffee_ride_ss2.png" alt="screen_shot_2">
+          <p class="pic-sub-title">Shop Page</p>
+
+          <img class="screen-shot" src="./img/coffee_ride_ss3.png" alt="screen_shot_3">
+          <p class="pic-sub-title">Adding to Cart</p>
+
+          <img class="screen-shot" src="./img/coffee_ride_ss4.png" alt="screen_shot_4">
+          <p class="pic-sub-title">Checkout Page</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Coffee Ride Preview -->
   <section class="p-0" id="portfolio">
     <div class="container-fluid p-0">
-      <div class="row no-gutters popup-gallery">
+      <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="http://thecoffeeride.mutomo.surge.sh/">
+          <a class="portfolio-box" href=# data-toggle="modal" data-target=".coffee-ride">
               <img class="img-fluid" src="img/portfolio/thumbnails/josh_writing.jpeg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
@@ -167,25 +206,62 @@
                   </div>
                   <br>
                   <p>Web application for making online purchases of The Coffee Ride’s in-house roasted coffee.</p>
-                  <i class="fa fa-desktop fa-2x mb-3 sr-contact"></i>
-                  <i class="fa fa-github fa-2x mb-3 sr-contact"></i>
                 </div>
               </div>
             </a>
         </div>
+
+<!-- MappHour Modal -->
+  <div class="modal fade mappyhour" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">MAPPYHOUR</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          <img class="mobile-screen-shot" src="./img/mappyhour_mobile.png" alt="screen_shot_mobile">
+          <p>
+            <strong>Technologies:</strong> Google API, Mocha, Chai, Supertest, Node.js, Express, Bcrypt, Knex.js, HTML5, CSS, JavaScript, jQuery, Materialize, PostgreSQL.
+            <br><br> With MappyHour users can view Boulder Happy Hour deals through our interactive map and intuitive interface. Once logged in, bookmark multiple restaurants and rate them.
+            <br><br> Users can filter the map to see what Happy Hours are available on specific days or browse through restaurant descriptions, deals, and their contact information.
+          </p>
+          <div class="links-group">
+            <a href="http://mappyhour.herokuapp.com/index.html" target="_blank" class="project-link">Live Site</a>
+            <a href="https://github.com/mafutomo/Q2-Project" target="_blank" class="project-link-second">GitHub Repo</a>
+          </div>
+
+          <img class="screen-shot" src="./img/mappyhour_ss1.png" alt="screen_shot_1">
+
+          <div class="mobile-ss-container">
+            <img class="mobile-screen-shot-mappy" src="./img/mapphour_mobile1.png" alt="screen_shot_2">
+
+
+            <img class="mobile-screen-shot-mappy" src="./img/mappyhour_mobile2.png" alt="screen_shot_3">
+          
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+          <!-- MappHour Preview -->
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+          <a class="portfolio-box" href=# data-toggle="modal" data-target=".mappyhour">
               <img class="img-fluid" src="img/portfolio/thumbnails/mappyhour.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Full-Stack Team Project
+                    Full-Stack Project
                   </div>
                   <div class="project-name">
                     MappyHour
                   </div>
                   <br>
-                  <p>Mobile-first application to view Boulder happy hour deals through an interactive map. Bookmark and rate restaurants in a personal account.</p>
+                  <p>Mobile-first application to view Boulder happy hour deals using the Google API.</p>
                 </div>
               </div>
             </a>
@@ -205,6 +281,7 @@
               </div>
             </a>
         </div>
+
         <!-- <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
               <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
@@ -249,15 +326,18 @@
                 </div>
               </div>
             </a>
-          </div>
-        </div>
-      </div> -->
+          </div> -->
+        <!-- Break -->
+      </div>
+
+    </div>
   </section>
 
   <section class="bg-dark text-white">
     <div class="container text-center">
-      <h2 class="mb-4">Take a gander at my resume:</h2>
+      <h2 class="mb-4">Take a gander at my resume!</h2>
       <a href="./melissa_utomo_resume.pdf" class="btn btn-light btn-xl sr-button" download="melissa_utomo_resume">Download</a>
+
     </div>
   </section>
 

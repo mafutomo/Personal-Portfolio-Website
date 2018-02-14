@@ -7,6 +7,10 @@
 }
 
 
+.epro-list{
+  text-align: center
+
+}
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2017 Start Bootstrap
@@ -81,7 +85,8 @@ h6 {
 }
 
 .links-group{
-    padding-top: 3%;
+
+  padding-bottom: 3%;
 }
 
 .project-link{

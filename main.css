@@ -1,21 +1,3 @@
-.new-bg{
-  background-color: #79C7CA;
-}
-
-.text-lite{
-  font-weight:lighter;
-}
-
-
-.epro-list{
-  text-align: center
-
-}
-/*!
- * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
- */
 body,
 html {
   width: 100%;
@@ -53,6 +35,20 @@ h6 {
   margin-bottom: -20px;
 }
 
+.new-bg{
+  background-color: #79C7CA;
+}
+
+.text-lite{
+  font-weight:lighter;
+}
+
+
+.epro-list{
+  text-align: center
+
+}
+
 .hint-text{
   font-style: italic;
   font-size: 95%;
@@ -64,7 +60,8 @@ h6 {
 
 .project-line{
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+
 }
 
 .bg-primary {
@@ -146,14 +143,9 @@ filter: drop-shadow(5px 5px 5px #222);
   color: black;
 }
 
-
 .text-background-color{
   background: rgba(0, 0, 0, .5);
 }
-
-/* .my-auto{
-  margin-top: 250px !important;
-} */
 
 .text-enlarge{
   font-size: 110%;
@@ -248,7 +240,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("./img/header.jpg");
   background-position: center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;

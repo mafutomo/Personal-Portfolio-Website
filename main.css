@@ -35,6 +35,11 @@ h6 {
   margin-bottom: -20px;
 }
 
+.emphasize{
+  color: #0b244c;
+  font-weight: bold;
+}
+
 .new-bg{
   background-color: #79C7CA;
 }
@@ -89,7 +94,6 @@ h6 {
 .project-link{
   text-align: left;
 }
-
 
 .pic-sub-title{
   text-align: center;
@@ -149,6 +153,12 @@ filter: drop-shadow(5px 5px 5px #222);
 
 .text-enlarge{
   font-size: 110%;
+}
+
+.copyright{
+  font-size: 90%;
+  color: grey;
+  text-align: center;
 }
 
 section {

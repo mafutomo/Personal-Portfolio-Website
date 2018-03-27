@@ -35,8 +35,22 @@ h6 {
   margin-bottom: -20px;
 }
 
+.bio-paragraph{
+  font-family: 'Raleway', sans-serif;
+  font-size: 130% !important;
+}
+
+.main-intro{
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+}
+
+.subheading-intro{
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-size: 125% !important;
+}
+
 .emphasize{
-  color: #1d55ad;
+  color:#106299;
   font-weight: bold;
 }
 
@@ -44,8 +58,28 @@ h6 {
   background-color: #79C7CA;
 }
 
+.raleway{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.raleway-big{
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold;
+}
+
+.raleway-projects{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 110% !important;
+}
+
 .text-lite{
   font-weight:lighter;
+}
+
+
+.project-description{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
@@ -55,7 +89,6 @@ h6 {
 }
 
 .hint-text{
-  font-style: italic;
   font-size: 95%;
 }
 
@@ -64,7 +97,7 @@ h6 {
 }
 
 .project-line{
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
 
 }
@@ -165,6 +198,7 @@ section {
   padding: 8rem 0; }
 
 .section-heading {
+  font-family: 'Raleway', sans-serif;
   margin-top: 0; }
 
 ::-moz-selection {
@@ -282,10 +316,11 @@ header.masthead {
   max-width: 400px; }
 
 .portfolio-box {
-  position: relative;
-  display: block;
+    /* position: relative; */
+  /* display: block; */
   max-width: 650px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
   .portfolio-box .portfolio-box-caption {
     position: absolute;
     bottom: 0;

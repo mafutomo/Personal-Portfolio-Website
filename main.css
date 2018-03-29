@@ -37,7 +37,7 @@ h6 {
 
 .bio-paragraph{
   font-family: 'Raleway', sans-serif;
-  font-size: 130% !important;
+  font-size: 95% !important;
 }
 
 .main-intro{
@@ -46,7 +46,7 @@ h6 {
 
 .subheading-intro{
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  font-size: 125% !important;
+  font-size: 110% !important;
 }
 
 .emphasize{
@@ -76,12 +76,14 @@ h6 {
   font-weight:lighter;
 }
 
+.skill-title{
+  font-size: 110% !important;
+}
 
 .project-description{
   margin-left: 10px;
   margin-right: 10px;
 }
-
 
 .epro-list{
   text-align: center
@@ -98,8 +100,6 @@ h6 {
 
 .project-line{
   padding-top: 20px;
-  padding-bottom: 20px;
-
 }
 
 .bg-primary {
@@ -161,10 +161,11 @@ filter: drop-shadow(5px 5px 5px #222);
 .mobile-screen-shot-epro{
   height: auto;
   width: auto;
-  max-width: 225px;
+  max-width: 120px;
   float: left;
-  margin: 4px 10px 0px 0px;
-  padding-right: 3%;
+  /* margin: 10px 0px 0px 0px; */
+  padding-right: 5%;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 
@@ -219,7 +220,9 @@ section {
 
 .section-heading {
   font-family: 'Raleway', sans-serif;
-  margin-top: 0; }
+  margin-top: 0;
+  font-size: 140%;
+}
 
 ::-moz-selection {
   color: #f4f4f4;
@@ -272,6 +275,7 @@ body {
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
         background-color: transparent; }
   @media (min-width: 992px) {
+
     #mainNav {
       border-color: transparent;
       background-color: transparent; }
@@ -321,6 +325,37 @@ header.masthead {
     header.masthead p {
       font-size: 1.15rem; } }
   @media (min-width: 992px) {
+
+    .mobile-screen-shot-epro{
+      height: auto;
+      width: auto;
+      max-width: 225px;
+      float: left;
+      margin: 4px 10px 0px 0px;
+      padding-right: 3%;
+      padding-bottom: 10px;
+    }
+
+    .subheading-intro{
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+      font-size: 125% !important;
+    }
+
+    .section-heading {
+      font-family: 'Raleway', sans-serif;
+      margin-top: 0;
+      font-size: 200%;
+    }
+
+    .bio-paragraph{
+      font-family: 'Raleway', sans-serif;
+      font-size: 130% !important;
+    }
+
+    .skill-title{
+      font-size: 150% !important;
+    }
+
     header.masthead {
       height: 100vh;
       min-height: 650px;
@@ -379,6 +414,8 @@ header.masthead {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
+
+
 
 .text-primary {
   color: #0b3c5d !important; }

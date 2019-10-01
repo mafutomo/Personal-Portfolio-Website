@@ -342,3 +342,17 @@ header.masthead {
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #f4f4f4;
     background-color: #0b3c5d !important; }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

@@ -10,18 +10,17 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #79c7ca; }
+  border-color: #e1a2cc; }
 
 hr.light {
   border-color: #f4f4f4; }
 
 a {
-  color: #79c7ca;
+  color: #004085;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
-  a:hover {
-    color: #79c7ca; }
+  a:hover {}
 
 h1,
 h2,
@@ -52,7 +51,12 @@ h6 {
   background: #1b1e21;
   margin: 0 30%;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  font-size: 110% !important;
+  font-size: 130% !important;
+}
+
+.container-center{
+  margin: 0 auto;
+  text-align: center;
 }
 
 .emphasize{
@@ -74,7 +78,7 @@ h6 {
 }
 
 .raleway-projects{
-    font-family: 'Raleway', sans-serif !important;
+    font-family: sans-serif !important;
     font-size: 110% !important;
 }
 
@@ -82,13 +86,30 @@ h6 {
   font-weight:lighter;
 }
 
+.text-muted{
+  color: #212529 !important;
+}
+
+.info-text{
+  color: #fff;
+  font-family: sans-serif;
+}
+
 .skill-title{
   font-size: 110% !important;
 }
 
+.navbar-light .navbar-toggler{
+  background-color: #fff;
+  border: 2px solid;
+}
+.collapse.show{
+  background: #fff;
+  padding: 1.5em;
+}
+
 .project-description{
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: auto 20px;
 }
 
 .epro-list{
@@ -97,7 +118,7 @@ h6 {
 }
 
 .hint-text{
-  font-size: 95%;
+
 }
 
 .portfolio-heading{
@@ -277,16 +298,16 @@ body {
       color: #79c7ca; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     color: #212529; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
       color: #79c7ca; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #79c7ca !important;
+      color: #004085 !important; text-decoration: underline;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -304,7 +325,7 @@ body {
         padding: 0.5rem 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(255, 255, 255, 0.7); }
+        color: #fff; text-shadow: 2px 4px 3px rgba(0,0,0,0.4); }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: #f4f4f4; }
@@ -317,10 +338,10 @@ body {
             color: #79c7ca; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-          color: #212529; }
+          color: #212529; text-shadow: none; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #79c7ca; } }
+            color: #004085; text-decoration: underline; } }
 
 header.masthead {
   padding-top: 10rem;
@@ -387,7 +408,7 @@ header.masthead {
     }
 
     .bio-paragraph{
-      font-family: 'Raleway', sans-serif;
+      font-family: sans-serif;
       font-size: 130% !important;
     }
 
@@ -405,10 +426,10 @@ header.masthead {
       padding-top: 0;
       padding-bottom: 0; }
       header.masthead h1 {
-        font-size: 3rem; } }
+        font-size: 5rem; } }
   @media (min-width: 1200px) {
     header.masthead h1 {
-      font-size: 4rem; } }
+      font-size: 5rem; } }
 
 .service-box {
   max-width: 400px; }
@@ -428,7 +449,7 @@ header.masthead {
     text-align: center;
     opacity: 0;
     color: #f4f4f4;
-    background: rgba(121, 199, 202, 0.9);
+    background: rgba(0, 64, 133, .9);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
@@ -461,7 +482,7 @@ header.masthead {
 
 
 .icon-primary {
-  color: #004085;
+  color: #79c7ca;
 }
 
 .btn {

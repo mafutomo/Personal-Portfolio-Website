@@ -7,7 +7,13 @@
 5. Clean up CSS
 6. Make image progressive JPG https://www.hostinger.com/tutorials/website/improving-website-performance-using-progressive-jpeg-images
 7. add background for white
-8. add pronouns -->
+9. make page shifting stop or have an option for non-motion enabled
+10. Add a description for MP
+BONUS: add favorite resources-
+- diverse stock photos
+- web accessibility guidelines
+-
+-->
 
 
 <!DOCTYPE html>
@@ -50,7 +56,7 @@
 <body id="page-top" class="utomo-portfolio">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" role="navigation">
     <div class="container">
 
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +71,7 @@
             <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger"
@@ -129,7 +135,7 @@
             <p class="text-muted mb-0 ">HTML5 &#183; CSS &#183; SASS</p>
             <p class="text-muted mb-0">JavaScript &#183; ES6 &#183; jQuery</p>
             <p class="text-muted mb-0">React.js</p>
-            <p class="text-muted mb-0">React Native</p>
+            <p class="text-muted mb-0">D3.js</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
@@ -160,92 +166,64 @@
     <div class="container">
       <div class="row">
           <div class="col-lg-12 text-center">
-          <h2 class="section-heading portfolio-heading">Recent projects</h2>
-          <p class="info-text mb-0 hint-text">click images to see more</p>
+          <h2 class="section-heading portfolio-heading">Most recent project</h2>
+          <!-- <p class="info-text mb-0 hint-text">click images to see more</p> -->
           <hr class="my-4 project-line">
         </div>
       </div>
     </div>
     <div class="container container-center">
-        <iframe src="https://drive.google.com/file/d/1ge2t_O0vFbbqW9jhNQWHm1kZA1Y6491n/preview" width="640" height="480"></iframe>
     </div>
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <!-- e/pro preview -->
-                <div class="col-lg-6 col-sm-6 image-tile">
-                  <a class="portfolio-box" href=# data-toggle="modal" data-target=".epro">
-                      <img class="img-fluid" src="img/portfolio/thumbnails/epro_mockup.jpeg" alt="">
-                      <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                          <div class="project-category text-faded raleway">
-                            Mobile Development
-                          </div>
-                          <div class="project-name raleway">
-                            E/Pro
-                          </div>
-                          <br>
-                          <p class="project-description raleway-projects">Native mobile app analyzing a woman’s cycle to provide tailored nutrition and fitness tips each week. Users can also document their daily exercises.</p>
-                        </div>
-                      </div>
-                    </a>
-                </div>
 
-                <!-- e/pro diagram preview -->
-                <div class="col-lg-6 col-sm-6">
-                  <a class="portfolio-box" href=# data-toggle="modal" data-target=".epro_wireframe">
-                      <img class="img-fluid" src="img/portfolio/thumbnails/adobexd_mockup.jpeg" alt="">
-                      <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                          <div class="project-category text-faded raleway">
-                            UI Design
-                          </div>
-                          <div class="project-name raleway">
-                            The Making of E/Pro
-                          </div>
-                          <br>
-                          <p class="project-description raleway-projects">Wireframes for the mobile native E/Pro application using AdobeXD.</p>
-                        </div>
-                      </div>
-                    </a>
-                </div>
-
-  <!-- Coffee Ride Preview -->
-        <div class="col-lg-6 col-sm-6">
-          <a class="portfolio-box" href=# data-toggle="modal" data-target=".coffee-ride">
-              <img class="img-fluid" src="img/portfolio/thumbnails/josh_writing_mockup.jpeg" alt="">
+        <!--  Mountain project preview -->
+        <div class="col-lg-6 col-sm-12 image-tile container-center" id="mountain-project">
+          <a class="portfolio-box" href=# data-toggle="modal" data-target=".mp" role="button">
+              <img class="img-fluid" src="img/portfolio/thumbnails/mountain_project_proposal.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded raleway">
-                    Front-End
+                    Design + User Testing + Front-end
                   </div>
                   <div class="project-name raleway">
-                    The Coffee Ride
+                    The climbing community and inclusion
                   </div>
                   <br>
-                  <p class="project-description raleway-projects">Mobile-first application for making online purchases of The Coffee Ride’s in-house roasted coffee.</p>
+                  <p class="project-description raleway-projects">Proposal addressed to Mountain Project and REI to add a flagging feature on their existing web tool that documents rock climbing routes.</p>
                 </div>
               </div>
             </a>
         </div>
 
-          <!-- MappHour Preview -->
-        <div class="col-lg-6 col-sm-6">
-          <a class="portfolio-box" href=# data-toggle="modal" data-target=".mappyhour">
-              <img class="img-fluid" src="img/portfolio/thumbnails/mappyhour_mockup.jpeg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded raleway">
-                    Full-Stack
+        <!-- Mountain Project modal -->
+        <!-- E/PRO Modal -->
+          <div class="modal fade mp" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" id="mp_modal">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">THE CLIMBING COMMUNITY AND INCLUSION</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body raleway-projects">
+
+                  <div class="links-group">
+                    <a href="https://www.youtube.com/watch?v=jdjHQ-HdMik" target="_blank" class="project-link">Download a copy</a>
                   </div>
-                  <div class="project-name raleway">
-                    MappyHour
-                  </div>
-                  <br>
-                  <p class="project-description raleway-projects">Mobile-first application to view Boulder happy hour deals using the Google Maps API.</p>
+                  <p>
+                    <strong>Skills:</strong> HTML, CSS, web accessibility, user testing
+
+                  </p>
+
+                  <iframe src="https://drive.google.com/file/d/1ge2t_O0vFbbqW9jhNQWHm1kZA1Y6491n/preview" width="100%" height="480"></iframe>
+
+
                 </div>
               </div>
-            </a>
-        </div>
+            </div>
+          </div>
 
         <!-- Coffee Ride Modal -->
 
@@ -332,7 +310,7 @@
             </div>
           </div>
 
-        <!-- MappHour Modal -->
+        <!-- MappyHour Modal -->
           <div class="modal fade mappyhour" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
@@ -418,7 +396,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Let's get in touch</h2>
+          <h2 class="section-heading">Call me, beep me, <br> if you wanna reach me</h2>
           <hr class="my-4">
         </div>
       </div>

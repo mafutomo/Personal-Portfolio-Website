@@ -36,11 +36,13 @@ h6 {
 
 #portfolio{
   background: #212529;
+  padding-bottom: 2em !important;
 }
 
 .bio-paragraph{
-  font-family: 'Raleway', sans-serif;
-  font-size: 95% !important;
+  font-family: sans-serif;
+  font-size: 120% !important;
+  text-align: left;
 }
 
 .main-intro{
@@ -127,6 +129,12 @@ h6 {
 
 .project-line{
   padding-top: 20px;
+}
+
+@media (min-width: 992px){
+  #mp_modal{
+    max-width: 950px;
+  }
 }
 
 .bg-primary {
@@ -283,6 +291,16 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #212529; }
 
+#mountain-project{
+  height: 500px;
+}
+
+@media (min-width:760px) {
+  #mountain-project{
+    height: auto;
+  }
+}
+
 #mainNav {
   background-color: transparent;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -405,11 +423,6 @@ header.masthead {
       font-family: 'Raleway', sans-serif;
       margin-top: 0;
       font-size: 200%;
-    }
-
-    .bio-paragraph{
-      font-family: sans-serif;
-      font-size: 130% !important;
     }
 
     .skill-title{

@@ -42,6 +42,7 @@ h6 {
 .bio-paragraph{
   font-family: sans-serif;
   font-size: 120% !important;
+  line-height: 2em;
   text-align: left;
 }
 
@@ -145,6 +146,7 @@ h6 {
 
 .modal-body{
   background-color: #f9f9f9;
+  padding: 25px;
 }
 
 .modal-title{

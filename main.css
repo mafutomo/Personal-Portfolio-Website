@@ -322,9 +322,9 @@ body {
   -webkit-tap-highlight-color: #212529;
 }
 
-#mountain-project{
+/* #mountain-project{
   height: 500px;
-}
+} */
 
 @media (min-width:760px) {
   #mountain-project{

@@ -78,6 +78,7 @@ h6 {
   z-index: 1;
   position: relative;
 }
+
 .subheading-intro{
   background: #1b1e21;
   margin: 0 30%;
@@ -329,6 +330,24 @@ body {
 @media (min-width:760px) {
   #mountain-project{
     height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  header.masthead h1{
+    font-size: 45px !important;
+  }
+  .bio-paragraph{
+    font-size: 100% !important;
+  }
+  .section-heading{
+    font-size: 160%;
+  }
+  #about .text-center{
+    padding: 0 4em;
+  }
+  .skill-title{
+    font-weight: bold;
   }
 }
 

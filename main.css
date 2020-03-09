@@ -176,6 +176,7 @@ h4{
 .navbar-light .navbar-toggler{
   background-color: #ddd;
   border: 2px solid;
+  padding: 10px;
 }
 .collapse.show{
   background: #fff;

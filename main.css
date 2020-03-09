@@ -253,6 +253,13 @@ h4{
   font-weight:600;
 }
 
+.modal-header .close{
+  padding: 10px 15px;
+}
+.modal-header .close span{
+  font-size: 40px;
+}
+
 .links-group{
 
   padding-bottom: 3%;
@@ -624,5 +631,6 @@ header.masthead {
   }
   #mp_modal{
     max-width: 950px;
+    margin-top: 40px;
   }
 }
